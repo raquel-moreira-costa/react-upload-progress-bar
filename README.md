@@ -1,4 +1,4 @@
-##react-upload-progress-bar<br/>
+react-upload-progress-bar<br/>
 Projeto de uma página para upload de arquivos, desenvolvida em equipe utilizando react, axios e bootstrap. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
