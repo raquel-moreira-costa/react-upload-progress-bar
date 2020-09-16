@@ -2,10 +2,12 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import { setUploadFile } from './redux/uploadFile/uploadFile.actions'
-
 import UploadProgress from './components/UploadProgress/UploadProgress'
-import logo from './logo.svg'
+import Header from './components/header'
+import Footer from './components/footer'
+
 import './App.css'
+
 
 function App(props) {
   const handleAttachFIle = e => {
@@ -15,12 +17,13 @@ function App(props) {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <Header/>
+        <main className="App">
         <input type="file" multiple onChange={handleAttachFIle} />
-      </header>
       <UploadProgress />
+    </main>
+    <Footer/>
     </div>
   )
 }
