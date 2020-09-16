@@ -4,7 +4,6 @@ import { setUploadFile } from './redux/uploadFile/uploadFile.actions'
 import UploadProgress from './components/UploadProgress/UploadProgress'
 import Header from './components/header'
 import Footer from './components/footer'
-
 import './App.css'
 
 
@@ -18,7 +17,7 @@ function App(props) {
   return (
     <div>
       <Header/>
-        <main className="App">
+        <main>
         <input type="file" multiple onChange={handleAttachFIle} />
       <UploadProgress />
     </main>
