@@ -1,6 +1,5 @@
 import React from 'react'
 import { connect } from 'react-redux'
-
 import { setUploadFile } from './redux/uploadFile/uploadFile.actions'
 import UploadProgress from './components/UploadProgress/UploadProgress'
 import Header from './components/header'
