@@ -1,9 +1,10 @@
 import React from 'react';
+import "./footer.css";
 
 const Footer = () => (
 
     <footer>
-        <h2>Desenvolvedores</h2>
+        <h1>Desenvolvedores</h1>
         <ul>
         <li><a href="https://github.com/JoseCarlos69">José Carlos</a></li>
         <li><a href="https://github.com/RachMor">Raquel Moreira</a></li>

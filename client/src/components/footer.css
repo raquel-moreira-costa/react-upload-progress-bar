@@ -1,0 +1,29 @@
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height:120px;
+    background-color:#2955d9;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+ul li{
+    
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
