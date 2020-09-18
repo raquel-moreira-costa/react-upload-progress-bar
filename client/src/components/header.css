@@ -3,10 +3,37 @@ header{
     width: 100%;
     height: 100px;
 }
-h1{
+.h1-header{
     padding-top:20px ;
     text-align: center;
     font-size: 40px;
     color: white;
 }
 
+@media screen and (max-width: 650px){
+    header{
+        background-color: #2955d9;
+        width: 100%;
+        height: 100px;
+    }
+    .h1-header{
+        padding-top:20px ;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1210px){
+    header{
+        background-color: #2955d9;
+        width: 100%;
+        height: 100px;
+    }
+    .h1-header{
+        padding-top:20px ;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+}

@@ -3,9 +3,9 @@
   bottom: 0;
   right: 0;
   background-color: white;
-  width: 400px;
+  width: 600px;
   overflow: scroll;
-  max-height: 400px;
+  max-height: 700px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -28,4 +28,32 @@
 
 .closeButton:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 650px){
+  .wrapper {
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    width: 290px;
+    overflow: scroll;
+    max-height: 400px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1210px){
+  .wrapper {
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    width: 300px;
+    overflow: scroll;
+    max-height: 400px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
 }

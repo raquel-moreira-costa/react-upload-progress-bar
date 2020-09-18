@@ -7,7 +7,8 @@ footer{
     color: white;
 }
 
-h1{
+.h1-footer{
+    padding-top: 9px;
     text-align: center;
 }
 
@@ -26,4 +27,73 @@ li a{
     color: white;
     font-size: 22px;
     text-decoration: none;
+    padding-bottom: 7px;
+}
+
+@media only screen and (max-width: 650px){
+    footer{
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        height: 120px;
+        background-color:#2955d9;
+        color: white;
+    }
+    .h1-footer{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    ul{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    ul li{
+    
+        display: inline;
+        list-style: none;
+    }
+
+    li a{
+        text-align: center;
+        color: white;
+        font-size: 11px;
+        text-decoration: none;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1210px){
+    footer{
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        height: 120px;
+        background-color:#2955d9;
+        color: white;
+    }
+    .h1-footer{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    ul{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    ul li{
+    
+        display: inline;
+        list-style: none;
+    }
+
+    li a{
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        justify-content: space-around;
+    }
 }

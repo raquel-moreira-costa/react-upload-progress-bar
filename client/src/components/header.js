@@ -5,7 +5,7 @@ import "../App.css"
 const Header = () => (
 
     <header>
-        <h1>Upload de arquivos</h1>
+        <h1 class="h1-header">Upload de arquivos</h1>
     </header>
 
 );
