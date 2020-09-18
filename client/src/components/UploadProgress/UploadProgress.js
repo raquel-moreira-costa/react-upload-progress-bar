@@ -17,7 +17,7 @@ const UploadProgress = props => {
 
   return uploadedFileAmount > 0 ? (
     <div className={Styles.wrapper}>
-      <h4>Uploading File</h4>
+      <h4>Carregando arquivos</h4>
       {size(fileProgress)
         ? toArray(fileProgress).map(file => <UploadItem key={file.id} file={file} />)
         : null}

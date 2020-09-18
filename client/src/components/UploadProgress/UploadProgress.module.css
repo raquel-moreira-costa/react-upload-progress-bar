@@ -11,9 +11,10 @@
 }
 
 .wrapper > h4 {
-  background-color: beige;
+  background-color: rgb(36, 153, 231);
   margin: 0;
   padding: 20px;
+  color: white;
 }
 
 .closeButton {

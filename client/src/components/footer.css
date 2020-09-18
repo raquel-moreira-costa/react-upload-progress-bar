@@ -3,8 +3,9 @@ footer{
     width: 100%;
     bottom: 0;
     height:120px;
-    background-color:#2955d9;
+    background-image: linear-gradient(to bottom, rgb(67, 83, 233), rgb(7, 20, 134));
     color: white;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .h1-footer{
