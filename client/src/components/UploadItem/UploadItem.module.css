@@ -103,7 +103,7 @@
   
   .progressBar > div {
     height: 15px;
-    background-color: lightgreen;
+    background-color: rgb(0, 247, 255);
     border-radius: 20px;
   }
   

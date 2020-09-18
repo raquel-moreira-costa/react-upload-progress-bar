@@ -3,9 +3,9 @@
   bottom: 0;
   right: 0;
   background-color: white;
-  width: 600px;
+  width: 500px;
   overflow: scroll;
-  max-height: 700px;
+  max-height: 500px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
